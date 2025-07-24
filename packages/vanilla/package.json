@@ -19,7 +19,8 @@
     },
     "scripts": {
         "build": "tsc && vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "prepare": "pnpm build"
     },
     "files": [
         "dist"
